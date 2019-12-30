@@ -1,18 +1,20 @@
 package Calculo;
 
+import java.awt.Color;
+
 import Contexto1.Peça;
 import Contexto1.Tabuleiro;
 
 public class Xadrez_Peca extends Peça{
 
-	private Cor c;
+	private Color c;
 	
-	public Xadrez_Peca(Tabuleiro board,Cor c) {
+	public Xadrez_Peca(Tabuleiro board,Color cor) {
 		super(board);
-		this.c = c;
+		this.c = cor;
 	}
 
-	public Cor getC() {
+	public Color getC() {
 		return c;
 	}
 }
