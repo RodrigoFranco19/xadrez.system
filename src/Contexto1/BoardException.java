@@ -7,8 +7,7 @@ public class BoardException extends RuntimeException{
 	String msg;
 
 	public BoardException(String msg) {
-		super();
-		this.msg = msg;
+		super(msg);
 	}
 	
 	public String getMessage() {
